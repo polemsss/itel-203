@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: blanchedalmond
+    }
+    header {
+      background-color: pink;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 25px;
+    }
+    h1 {
+      font-size: 30 px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 30px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 30px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 30px;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+    li::before {
+      content: "\2022";
+      position: absolute;
+      left: 0;
+      color: #3F51B5;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpg" alt="Profile Picture">
+    <h1>Huraño, John Jerome Lopez</h1>
+    <p>johnjerome.hurano@lspu.edu.ph</p>
+    
+  </header>
+  <main>
+    <center><h2>My Profile</h2></center>
+    <h2>Personal Information</h2>
+    <ul>
+      <b><li>Birth of Date:</b> February 5, 2003</li>
+      <b><li>Birth of place:</b> Real Quezon</li>
+      <b><li>Address:</b> Maragondon Real Quezon</li>
+      <b><li>Age:</b> 20 years old</li>
+      <b><li>Sex:</b> Male</li>
+      <b><li>Civil Status:</b> Single</li>
+      <b><li>Height:</b> 5'5</li>
+      <b><li>Weight:</b> 60 kgs</li>
+      <b><li>Phone:</b> 09451289725</li>
+      <b><li>Nationality:</b> Filipino</li>
+      <b><li>Religion:</b> Born again Christian</li>  
+      </ul>
+      <b><p class="head">Interests</p></b>
+    <ul>
+      <li>Basketball</li>
+      <li>Drumming</li>
+      <li>Travel</li>
+      <li>Watching</li>
+      <li>Driving</li>
+    </ul>
+    <b><p class="head">Skills</p></b>
+    <ul>
+      <li></li>
+      <li>Designer</li>
+      <li>Programmer</li>
+      <li>Dancer</li>
+      <li>Singer</li>
+    </ul>
+    <b><p class="head">Education</p></b>
+    <ul>
+        <li>Llavac Elementary School</li>
+        <li>Siniloan Integrated National Highschool</li>
+      <li>Laguna State Polytechnic University</li>
+    </ul>
+    <b><p class="head">Work Experience</p></b>
+    <ul>
+      <li>Tricycle driver</li>
+      <li>Hog raiser</li>
+      <li>Mcdo crew</li>
+      <li>Barber</li>
+      <li>Laborer</li>
+    </ul>
+
+</body>
+</html>
